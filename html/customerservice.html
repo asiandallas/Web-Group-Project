@@ -6,19 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Service</title>
     <link rel="stylesheet" type="text/css" href = "/css/aboutUs.css">
+    <link rel="stylesheet" type="text/css" href = "/css/service.css">
     <script src="/js/menu.js" defer></script>
 </head>
 <body>
     <section class="showcase">
-        <header>
-            <h1 class="logo">Customer Services</h1> 
+        <header class="logo">
+            <h1>Customer Service</h1>   
         </header>
+
             <div class="toggle"></div>
             <div class="music">
                 <audio controls > <!--still? lemme check nah lemme see hmm-->
                     <source src="/music/feeling_happy.wav" >
                 </audio>
             </div>
+        
+        <div class="questions">
+        <details>
+            <summary>What type of clothing do we provide?</summary>
+            <p>Here are the following clothes that we provide.</p>
+            <label>For guys (top): </label>
+            <ul>
+                <li>Shirts</li>
+                <li>Hoodie</li>
+                <li>Long Sleeve </li>
+                <li>Tanktop</li>
+            </ul>
+            <label>For guys (bottom): </label> 
+            <ul>
+                <li>Sweatpants</li>
+            </ul>
+            <label>For girls (top): </label> 
+            <ul>
+                <li>Shirt</li>
+                <li>Hoodie</li>
+                <li>Tanktop</li>
+            </ul>
+            <label>For girls (bottom): </label>
+            <ul>
+                <li>Sweatpants</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Were there any potential team mascots?</summary>
+            <label>Indeed! There were potential mascots that are not </label>
+            <ul>
+                <li>Shirts</li>
+                <li>Hoodie</li>
+                <li>Long Sleeve </li>
+                <li>Tanktop</li>
+            </ul>
+            <label>For guys (bottom): </label> 
+            <ul>
+                <li>Sweatpants</li>
+            </ul>
+            <label>For girls (top): </label> 
+            <ul>
+                <li>Shirt</li>
+                <li>Hoodie</li>
+                <li>Tanktop</li>
+            </ul>
+            <label>For girls (bottom): </label>
+            <ul>
+                <li>Sweatpants</li>
+            </ul>
+        </details>
+        </div>
     </section>
 
     <div class="menu">
@@ -52,14 +107,5 @@
     </div>
 
 
-    <script>
-        const menuToggle= document.querySelector('.toggle')
-        const showcase= document.querySelector('.showcase')
-
-        menuToggle.addEventListener('click', () => {
-            menuToggle.classList.toggle('active')
-            showcase.classList.toggle('active')
-        })
-    </script>
 </body>
 </html>
