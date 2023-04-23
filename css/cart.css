@@ -4,10 +4,11 @@ section, h4{
 
 .shopping-cart{
     background-color: white;
-    width: 500px;
-    height: 700px;
+    min-width: 20em;
+    height: 30em;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 5em;
+    margin-top: 2%;
 }
 
 .shopping-cart h4{
@@ -218,4 +219,8 @@ however, without this section, the header of the showcase cannot be styled */
 
 .items td{
     padding: 1.5em;    
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
